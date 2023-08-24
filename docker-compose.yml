@@ -1,0 +1,48 @@
+# common composer for all environments
+version: '3.8'
+ 
+services:
+  backend:
+    restart: always
+    
+    container_name: backend
+    build:
+      context: .
+      dockerfile: docker/backend/Dockerfile
+    command: /backend.sh
+    volumes:
+      - .:/app
+    environment:
+      - SQL_DATABASE="changeme"
+      - SQL_USER="plschangeme"
+      - SQL_PASSWORD="seriouslychangeme"
+      - SQL_HOST=db
+      - SQL_PORT=5432
+      - CSRF_TRUSTED_ORIGINS="https://localhost"
+    depends_on:
+      - db
+
+  db:
+    container_name: db
+    image: postgres:14-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB="changeme"
+      - POSTGRES_USER="plschangeme"
+      - POSTGRES_PASSWORD="seriouslychangeme"
+      - CSRF_ORIGINS=
+
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend/Dockerfile
+    container_name: frontend
+    ports:
+      - 80:80
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

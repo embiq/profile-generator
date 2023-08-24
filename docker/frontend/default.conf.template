@@ -1,0 +1,22 @@
+server {
+
+    listen 80;
+    server_name _;
+    root /usr/share/nginx/html;
+    client_max_body_size 256M;
+    error_log  /var/log/nginx/app.error.log warn;
+    access_log  /var/log/nginx/app.access.log;
+
+    location /api/ {
+        proxy_pass http://backend:8000;
+    }
+
+    location /admin/ {
+        proxy_set_header Host $host;
+        proxy_pass http://backend:8000;
+    }
+
+    location /admin-static/ {
+        proxy_pass http://backend:8000;
+    }
+}

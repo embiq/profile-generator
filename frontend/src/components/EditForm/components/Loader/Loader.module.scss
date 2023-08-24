@@ -1,0 +1,49 @@
+@import "./src/assets/styles/variables";
+
+.loaderBox {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(gray, 0.8);
+  z-index: 999;
+
+  .loader {
+    font-size: 40px;
+    font-weight: bolder;
+    height: 54px;
+    width: 198px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 99px);
+    display: block;
+
+    span {
+      position: relative;
+      display: inline-block;
+      animation: wave 1s infinite;
+
+      &:nth-child(5) {
+        color: $orange;
+      }
+
+      @for $i from 1 through 8 {
+        &:nth-child(#{$i}) {
+          animation-delay: calc(0.1s * $i);
+        }
+      }
+    }
+  }
+  @keyframes wave {
+    0%,
+    40%,
+    100% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateY(-10px);
+    }
+  }
+}

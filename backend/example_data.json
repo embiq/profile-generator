@@ -1,0 +1,460 @@
+[
+  {
+    "model": "generator.jobtitle",
+    "pk": 1,
+    "fields": {
+      "title": "React Native Developer"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 1,
+    "fields": {
+      "name": "SCSS"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 2,
+    "fields": {
+      "name": "Bootstrap"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 3,
+    "fields": {
+      "name": "Cubase"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 4,
+    "fields": {
+      "name": "Redux"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 5,
+    "fields": {
+      "name": "TypeScript"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 6,
+    "fields": {
+      "name": "ES6"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 7,
+    "fields": {
+      "name": "Mobx"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 8,
+    "fields": {
+      "name": "Git"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 9,
+    "fields": {
+      "name": "React"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 10,
+    "fields": {
+      "name": "Angular"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 11,
+    "fields": {
+      "name": "React Native"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 12,
+    "fields": {
+      "name": "JavaScript"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 13,
+    "fields": {
+      "name": "Visual Studio Code"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 14,
+    "fields": {
+      "name": "Cypress.io"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 15,
+    "fields": {
+      "name": "BitBucket"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 16,
+    "fields": {
+      "name": "CSS"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 17,
+    "fields": {
+      "name": "Java"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 18,
+    "fields": {
+      "name": "Mongo DB"
+    }
+  },
+  {
+    "model": "generator.technology",
+    "pk": 19,
+    "fields": {
+      "name": "Smartcontracts"
+    }
+  },
+  {
+    "model": "generator.course",
+    "pk": 1,
+    "fields": {
+      "name": "WebdriverIO course Complete Beginner Course 2022"
+    }
+  },
+  {
+    "model": "generator.course",
+    "pk": 2,
+    "fields": {
+      "name": "JavaScript course The Modern JavaScript Bootcamp Course"
+    }
+  },
+  {
+    "model": "generator.course",
+    "pk": 3,
+    "fields": {
+      "name": "Web Development course Mozilla Developer Network Web Docs"
+    }
+  },
+  {
+    "model": "generator.course",
+    "pk": 4,
+    "fields": {
+      "name": "Accredited ISTQB course Testing Academy"
+    }
+  },
+  {
+    "model": "generator.specialist",
+    "pk": 1,
+    "fields": {
+      "name": "Sebastian",
+      "advantages": "[\"3+ years of commercial experience\", \"Developed communication skills\", \"Creativity, very good abstract thinking skills\"]",
+      "job_titles": [
+        1
+      ],
+      "skills": [
+        17,
+        16,
+        15,
+        13,
+        7
+      ],
+      "courses": [
+        4,
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "model": "generator.specialistproject",
+    "pk": 1,
+    "fields": {
+      "specialist": 1,
+      "project": 1,
+      "duration": 3,
+      "tasks": [
+        4,
+        2,
+        1
+      ],
+      "technologies": [
+        16,
+        10,
+        5,
+        1
+      ]
+    }
+  },
+  {
+    "model": "generator.specialistproject",
+    "pk": 2,
+    "fields": {
+      "specialist": 1,
+      "project": 7,
+      "duration": 2,
+      "tasks": [
+        4,
+        2,
+        1
+      ],
+      "technologies": [
+        18,
+        17,
+        15
+      ]
+    }
+  },
+  {
+    "model": "generator.school",
+    "pk": 1,
+    "fields": {
+      "name": "Maria Curie-Skłodowska University"
+    }
+  },
+  {
+    "model": "generator.school",
+    "pk": 2,
+    "fields": {
+      "name": "Testing Academy"
+    }
+  },
+  {
+    "model": "generator.languages",
+    "pk": 1,
+    "fields": {
+      "name": "English"
+    }
+  },
+  {
+    "model": "generator.languages",
+    "pk": 2,
+    "fields": {
+      "name": "Spanish"
+    }
+  },
+  {
+    "model": "generator.languages",
+    "pk": 3,
+    "fields": {
+      "name": "Greek"
+    }
+  },
+  {
+    "model": "generator.technologylevel",
+    "pk": 1,
+    "fields": {
+      "specialist": 1,
+      "technology": 11,
+      "level": 2
+    }
+  },
+  {
+    "model": "generator.technologylevel",
+    "pk": 2,
+    "fields": {
+      "specialist": 1,
+      "technology": 10,
+      "level": 5
+    }
+  },
+  {
+    "model": "generator.technologylevel",
+    "pk": 3,
+    "fields": {
+      "specialist": 1,
+      "technology": 5,
+      "level": 3
+    }
+  },
+  {
+    "model": "generator.technologylevel",
+    "pk": 4,
+    "fields": {
+      "specialist": 1,
+      "technology": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "generator.languagelevel",
+    "pk": 1,
+    "fields": {
+      "specialist": 1,
+      "language": 1,
+      "level": "B2"
+    }
+  },
+  {
+    "model": "generator.education",
+    "pk": 1,
+    "fields": {
+      "specialist": 1,
+      "school": 1,
+      "end_date": "2015-09-29",
+      "description": null
+    }
+  },
+  {
+    "model": "generator.education",
+    "pk": 2,
+    "fields": {
+      "specialist": 1,
+      "school": 2,
+      "end_date": "2022-09-29",
+      "description": null
+    }
+  },
+  {
+    "model": "project.project",
+    "pk": 1,
+    "fields": {
+      "name": "IT managed services website development",
+      "description": "It is an application for an Android phone that allows you to keep up to date with what works and when they were performed, cataloging, describing and photographing the serviced devices located in a given DSDI beacon location. It also allows quick access to the service history of a given device and to verify the cause of its failure on the basis of repairs already carried out. In addition, thanks to it, we can easily find the shortest path.",
+      "start_date": null,
+      "end_date": null,
+      "specialist_number": 5,
+      "market_branch": ""
+    }
+  },
+  {
+    "model": "project.project",
+    "pk": 2,
+    "fields": {
+      "name": "Mobile application that serves for tracking of persons and animals using a proprietary GSM tracker device.",
+      "description": "The application allows for marking the trackers movement and also allows limited forms of communication with the tracker's owner.",
+      "start_date": null,
+      "end_date": null,
+      "specialist_number": 6,
+      "market_branch": "Finance"
+    }
+  },
+  {
+    "model": "project.project",
+    "pk": 3,
+    "fields": {
+      "name": "Creating client applications for preparing surveys and to fetch recommendations",
+      "description": "for users It provides all necessary CRUDs and all related entities.",
+      "start_date": null,
+      "end_date": null,
+      "specialist_number": 5,
+      "market_branch": ""
+    }
+  },
+  {
+    "model": "project.project",
+    "pk": 4,
+    "fields": {
+      "name": "Creating client applications for preparing surveys and to fetch recommendations",
+      "description": "for users It provides all necessary CRUDs and all related entities.",
+      "start_date": null,
+      "end_date": null,
+      "specialist_number": 5,
+      "market_branch": ""
+    }
+  },
+  {
+    "model": "project.project",
+    "pk": 5,
+    "fields": {
+      "name": "A streaming/VOD application directed to fans of basketball and volleyball.",
+      "description": "Wrote in Android mobile, iOS, AndroidTV, Tizen.",
+      "start_date": null,
+      "end_date": null,
+      "specialist_number": 5,
+      "market_branch": ""
+    }
+  },
+  {
+    "model": "project.project",
+    "pk": 6,
+    "fields": {
+      "name": "An application that allows tracking people and animals using a designated proprietary hardware tracker.",
+      "description": "The GPS position tracking is done via a GSM/3G module and allows two-way communication between the app and the custom tracker.",
+      "start_date": null,
+      "end_date": null,
+      "specialist_number": 4,
+      "market_branch": ""
+    }
+  },
+  {
+    "model": "project.project",
+    "pk": 7,
+    "fields": {
+      "name": "DSDi Mobile is part of the integrated DSDi Serwis service platform, designed for installation specialists.",
+      "description": "It is an application for an Android phone that allows you to keep up to date with what works and when they were performed, cataloging, describing and photographing the serviced devices located in a given DSDI beacon location. It also allows quick access to the service history of a given device and to verify the cause of its failure on the basis of repairs already carried out. In addition, thanks to it, we can easily find the shortest path.",
+      "start_date": null,
+      "end_date": null,
+      "specialist_number": 5,
+      "market_branch": ""
+    }
+  },
+  {
+    "model": "project.project",
+    "pk": 8,
+    "fields": {
+      "name": "A platform based on blockchain technology",
+      "description": "that allows investing in real estate using cryptocurrencies (real estate tokenization).",
+      "start_date": null,
+      "end_date": null,
+      "specialist_number": 5,
+      "market_branch": ""
+    }
+  },
+  {
+    "model": "project.task",
+    "pk": 1,
+    "fields": {
+      "description": "manual testting (Android/IOS)",
+      "parent_task": null
+    }
+  },
+  {
+    "model": "project.task",
+    "pk": 2,
+    "fields": {
+      "description": "creating scenarios and test cases",
+      "parent_task": null
+    }
+  },
+  {
+    "model": "project.task",
+    "pk": 3,
+    "fields": {
+      "description": "writing documentation",
+      "parent_task": null
+    }
+  },
+  {
+    "model": "project.task",
+    "pk": 4,
+    "fields": {
+      "description": "reporting bugs",
+      "parent_task": null
+    }
+  }
+]

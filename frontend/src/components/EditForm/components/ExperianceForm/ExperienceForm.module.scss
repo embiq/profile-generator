@@ -1,0 +1,41 @@
+@import "./src/assets/styles/variables";
+
+.experience {
+  background-color: rgba($black, 0.7);
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  .inputLabel {
+    color: $white;
+    margin: 0;
+    font-size: small;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+
+    .inputBox {
+      display: flex;
+      align-items: center;
+
+      .nameField {
+        width: 350px;
+        margin-left: 10px;
+        margin-bottom: 0;
+      }
+
+      .displayPriorityField {
+        width: 50px;
+        margin-left: 10px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  input,
+  textarea {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+@import "src/assets/styles/variables";
+
+.pageNumbers {
+  width: 495pt;
+  position: absolute;
+  top: 20pt;
+  left: 0;
+  margin: 0 50pt;
+  padding-bottom: 5pt;
+  border-bottom: 1pt solid $black;
+  font-size: 10pt;
+  text-align: right;
+}

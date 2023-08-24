@@ -1,0 +1,72 @@
+{
+  "name": "topdf",
+  "version": "0.1.0",
+  "proxy": "http://10.11.23.155/",
+  "private": true,
+  "dependencies": {
+    "@react-pdf/renderer": "^3.0.0",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^12.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.58",
+    "@types/react": "^18.0.19",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-redux": "^7.1.25",
+    "@types/redux": "^3.6.0",
+    "axios": "^0.27.2",
+    "axios-case-converter": "^0.9.0",
+    "buffer": "^6.0.3",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.5",
+    "debounce": "^1.2.1",
+    "docx": "^7.8.2",
+    "file-saver": "^2.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.35.0",
+    "react-modal": "^3.16.1",
+    "react-redux": "^8.0.5",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-toastify": "^9.0.8",
+    "react-tooltip": "^4.5.1",
+    "redux": "^4.2.0",
+    "sass": "^1.54.9",
+    "typescript": "^4.8.3",
+    "uniqid": "^5.4.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx ./"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/debounce": "^1.2.1",
+    "@types/file-saver": "^2.0.5",
+    "@types/react-modal": "^3.13.1",
+    "@types/uniqid": "^5.3.2"
+  }
+}

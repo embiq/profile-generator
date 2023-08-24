@@ -1,0 +1,13 @@
+.mainTechnologies {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  input {
+    height: 30px;
+  }
+
+  .techSelect {
+    width: 250px;
+  }
+}
